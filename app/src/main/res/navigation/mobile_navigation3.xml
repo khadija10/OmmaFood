@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation3"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ommafood.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_meal"
+        android:name="com.example.ommafood.MealFragment"
+        android:label="@string/meal"
+        tools:layout="@layout/fragment_meal" />
+
+    <fragment
+        android:id="@+id/nav_list_commande"
+        android:name="com.example.ommafood.ListCommandeFragment"
+        android:label="@string/commande"
+        tools:layout="@layout/fragment_list_commande" />
+
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.ommafood.HelpFragment"
+        android:label="@string/help"
+        tools:layout="@layout/fragment_help" />
+</navigation>

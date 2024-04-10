@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffff"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:text="Aide pour OmmaFood avec les coordonnées de la développeur"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textAllCaps="true" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si vous voulez de l'aide veuillez conctact la développeur de l'application"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="#7F3AB5"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#7F3AB5"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:autoLink="email|web"
+        android:text="Pour contacter Khadija: \n LinkedIn:   https://www.linkedin.com/in/kadiatou-aliou-diallo-739651199/ \n  envoyez un mail:  khadidia8@gmail.com"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>

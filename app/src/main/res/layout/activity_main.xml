@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#00ffff"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_marginTop="100dp"
+            android:text="Bienvenue Sur OmmaFood Pour Commande En Ligne "
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/view2"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:text="Pour continuer veuillez vous connecter. \n Mais si vous n'avez pas de compte créez-en"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnSuite"
+            android:backgroundTint="@color/purple_500"
+           android:layout_gravity="center"
+            android:layout_marginTop="@dimen/top"
+            android:text="Se connecter"
+            android:textSize="20dp"
+            android:layout_width="220dp"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+</ScrollView>
